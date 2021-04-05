@@ -1,22 +1,23 @@
 {
-  "name": "times",
-  "version": "1.0.0",
-  "description": "Convert times and output times from various formats (auto-detecting input formats)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/slgotting/slg-times-js.git"
-  },
-  "keywords": [
-    "time"
-  ],
-  "author": "slgotting",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/slgotting/slg-times-js/issues"
-  },
-  "homepage": "https://github.com/slgotting/slg-times-js#readme"
+    "name": "times",
+    "version": "1.0.0",
+    "description": "Convert times and output times from various formats (auto-detecting input formats)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "init-git": "git init && git add . && git commit -m 'initial' && git remote add origin git@github.com/slgotting/slg-times-js.git && git push origin master"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/slgotting/slg-times-js.git"
+    },
+    "keywords": [
+        "time"
+    ],
+    "author": "slgotting",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/slgotting/slg-times-js/issues"
+    },
+    "homepage": "https://github.com/slgotting/slg-times-js#readme"
 }
