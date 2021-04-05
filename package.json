@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "init-git": "git init && git add . && git commit -m 'initial' && git remote add origin git@github.com/slgotting/slg-times-js.git && git push origin master"
+        "init-git": "git init && git add . && git commit -m 'initial' && git remote add origin git@github.com/slgotting/slg-times-js.git && git push origin master",
+        "git-url": "git remote set-url origin"
     },
     "repository": {
         "type": "git",
